@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30001.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipCalculator", "TipCalculator", "{68461814-7BA7-4DB5-B55E-66E32A831060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{BC60E301-404D-454B-B4F4-F65BD74CF718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{BC60E301-404D-454B-B4F4-F65BD74CF718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{16E0115B-A750-4854-932C-B22B2B636858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,19 @@ Global
 		{BC60E301-404D-454B-B4F4-F65BD74CF718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC60E301-404D-454B-B4F4-F65BD74CF718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC60E301-404D-454B-B4F4-F65BD74CF718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E0115B-A750-4854-932C-B22B2B636858}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BC60E301-404D-454B-B4F4-F65BD74CF718} = {68461814-7BA7-4DB5-B55E-66E32A831060}
+		{16E0115B-A750-4854-932C-B22B2B636858} = {68461814-7BA7-4DB5-B55E-66E32A831060}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF487555-5B81-488E-8875-4406B1859DC2}
